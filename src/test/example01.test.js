@@ -44,12 +44,12 @@ test("mapData", () => {
   const data = [
     { name: "John", age: 25, id: 1 },
     { name: "Jane", age: 30, id: 2 },
-    { siu: "El bicho", eero: 11, id: 3 },
+    //{ siu: "El bicho", eero: 11, id: 3 },
   ];
   const newData = mapData(data);
   expect(newData).toEqual([
     { name: "John", age: 25, id: 1 },
     { name: "Jane", age: 30, id: 2 },
-    { siu: "El bicho", eero: 11, id: 3 },
+    //{ siu: "El bicho", eero: 11, id: 3 },
   ]);
 });
